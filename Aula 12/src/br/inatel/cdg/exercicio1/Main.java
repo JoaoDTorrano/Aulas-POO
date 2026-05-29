@@ -12,8 +12,7 @@ public class Main {
 		List<Double> listaDouble = new ArrayList<Double>();
 		
 		for (int i = 0; i < 5; i++) {
-			listaDouble.add(new Random()
-					.nextDouble()*100);
+			listaDouble.add(new Random().nextDouble()*100);
 		}
 		
 		System.out.println("Antes da Ordenação");
